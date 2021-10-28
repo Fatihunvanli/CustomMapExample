@@ -1,0 +1,24 @@
+﻿<form>
+    <div class="form-group">
+        <label for="InputName">Projeksion Seç</label>
+        <select id="projSelectWkt" class="form-control"></select>
+    </div>
+    <div class="form-group">
+        <label for="InputName">Adı</label>
+        <input type="text" class="form-control" style="background:white;" id="InputName" placeholder="Ad Gir" autocomplete="off" />
+        <span id="alertAddWkt" style="font-size:80%;margin-top: .25rem; color:red; display:none;">Boş geçilemez !!</span>
+    </div>
+    <div class="form-group">
+        <label class="control-label">Tarih Seç</label>
+        <input class="form-control" type="text" id="datepicker" placeholder="Tarih Seç" autocomplete="off">
+        <span id="alertDataWkt" style="font-size: 80%; margin-top: .25rem; color: red; display: none;">Boş geçilemez !!</span>
+    </div>
+    <div class="form-group">
+        <label for="InputWkt">WKT</label>
+        <textarea class="form-control" id="InputWkt" rows="3" placeholder="WKT"></textarea>
+        <span id="alertCoordinateWkt" style="font-size: 80%; margin-top: .25rem; color: red; display: none;">Boş geçilemez !!</span>
+    </div>
+    <div class="form-group">
+        <button id="saveBtn" style="margin-top:10px;" type="button" class="btn btn-primary">Kaydet</button>
+    </div>
+</form>
